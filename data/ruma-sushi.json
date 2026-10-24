@@ -1,0 +1,69 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Ruma Sushi",
+    "description": "Plant-based Japanese kitchen in Bengkong, Batam — sushi, ramen, rice bowls, gyoza and yakitori.",
+    "servesCuisine": [
+        "Japanese",
+        "Vegetarian",
+        "Vegan"
+    ],
+    "priceRange": "Rp",
+    "telephone": "+6281386611177",
+    "url": "https://instagram.com/rumasushi",
+    "image": "images/platter.jpg",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ruko Nico Residence Blok B3A No. 5, Sadai",
+        "addressLocality": "Bengkong, Batam",
+        "addressRegion": "Kepulauan Riau",
+        "postalCode": "29444",
+        "addressCountry": "ID"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 1.1411757,
+        "longitude": 104.0404773
+    },
+    "openingHoursSpecification": [
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "opens": "11:00",
+            "closes": "21:30"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "22",
+        "bestRating": "5"
+    },
+    "hasMenu": "#menu",
+    "acceptsReservations": "False",
+    "amenityFeature": [
+        {
+            "@type": "LocationFeatureSpecification",
+            "name": "Air conditioning",
+            "value": true
+        },
+        {
+            "@type": "LocationFeatureSpecification",
+            "name": "Free Wi-Fi",
+            "value": true
+        },
+        {
+            "@type": "LocationFeatureSpecification",
+            "name": "Wheelchair accessible",
+            "value": true
+        }
+    ]
+}
